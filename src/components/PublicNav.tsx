@@ -16,6 +16,10 @@ export const PublicNav = () => {
   const { pathname } = useLocation();
   return (
     <header className="sticky top-0 z-50 glass border-b border-border/50">
+      <div className="gradient-lime text-lime-foreground text-center text-[11px] sm:text-xs font-bold tracking-widest uppercase py-1.5 flex items-center justify-center gap-2">
+        <ShieldCheck className="w-3.5 h-3.5" />
+        Somos Distribuidores Autorizados HGW
+      </div>
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Logo />
         <nav className="hidden md:flex items-center gap-8">
