@@ -21,6 +21,6 @@ export type Product = {
 export const formatCOP = (n: number | null | undefined) =>
   n == null ? "" : new Intl.NumberFormat("es-CO", { style: "currency", currency: "COP", maximumFractionDigits: 0 }).format(n);
 
-export const WHATSAPP = "573142698881";
+export const WHATSAPP = "573114643478";
 export const EMAIL = "kevinestebansalamanca2@gmail.com";
 export const FACEBOOK = "https://www.facebook.com/share/1JUQbjeQoQ/";
