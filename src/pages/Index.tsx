@@ -49,6 +49,10 @@ const Index = () => {
               <Sparkles className="w-4 h-4 text-primary" />
               <span className="text-xs font-semibold tracking-widest uppercase text-primary">Wellness Premium · Colombia</span>
             </div>
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full gradient-lime shadow-glow mb-6 ml-0 md:ml-3">
+              <Shield className="w-4 h-4 text-lime-foreground" />
+              <span className="text-xs font-bold tracking-wide uppercase text-lime-foreground">Distribuidores Autorizados HGW</span>
+            </div>
             <h1 className="font-display text-5xl md:text-7xl font-bold leading-tight mb-6">
               Bienestar que <span className="text-gradient">se siente</span> premium.
             </h1>
