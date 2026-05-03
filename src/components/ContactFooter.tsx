@@ -1,4 +1,4 @@
-import { Mail, MessageCircle, Facebook, Copy, Check } from "lucide-react";
+import { Mail, MessageCircle, Facebook, Copy, Check, ShieldCheck } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 import { Logo } from "./Logo";
@@ -134,6 +134,10 @@ export const Footer = () => (
       <div className="pt-6 border-t border-border text-center text-sm text-muted-foreground">
         © HGW Green World Colombia 2026 · Todos los derechos reservados
       </div>
+    </div>
+    <div className="gradient-lime text-lime-foreground py-3 flex items-center justify-center gap-2 text-xs sm:text-sm font-bold tracking-widest uppercase">
+      <ShieldCheck className="w-4 h-4" />
+      Somos Distribuidores Autorizados HGW
     </div>
 
     {/* Floating WhatsApp */}
