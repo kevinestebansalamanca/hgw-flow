@@ -1,4 +1,4 @@
-import { Mail, MessageCircle, Facebook, Copy, Check } from "lucide-react";
+import { Mail, MessageCircle, Facebook, Copy, Check, ShieldCheck } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 import { Logo } from "./Logo";
