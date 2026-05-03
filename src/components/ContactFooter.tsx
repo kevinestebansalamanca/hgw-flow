@@ -68,8 +68,8 @@ export const ContactSection = () => {
             </div>
             <div className="text-primary-foreground font-semibold mb-1">WhatsApp</div>
             <div className="flex items-center gap-1 text-primary-foreground/80 text-sm mb-4">
-              +57 314 269 8881
-              <CopyBtn text="3142698881" label="Número" />
+              +57 311 464 3478
+              <CopyBtn text="3114643478" label="Número" />
             </div>
             <a
               href={`https://wa.me/${WHATSAPP}`}
@@ -126,7 +126,7 @@ export const Footer = () => (
           <div className="font-semibold mb-3 text-foreground">Contacto</div>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li>Correo: <a href={`mailto:${EMAIL}`} className="hover:text-primary break-all">{EMAIL}</a></li>
-            <li>WhatsApp: <a href={`https://wa.me/${WHATSAPP}`} className="hover:text-primary">+57 314 269 8881</a></li>
+            <li>WhatsApp: <a href={`https://wa.me/${WHATSAPP}`} className="hover:text-primary">+57 311 464 3478</a></li>
             <li>Facebook: <a href={FACEBOOK} target="_blank" rel="noreferrer" className="hover:text-primary">HGW Green World Colombia</a></li>
           </ul>
         </div>
