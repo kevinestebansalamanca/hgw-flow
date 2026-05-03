@@ -26,7 +26,8 @@ export const ProductsList = () => {
   useEffect(() => { load(); }, []);
 
   const toggle = async (p: Product, field: "featured" | "visible") => {
-    const { error } = await supabase.from("products").update({ [field]: !p[field] }).eq("id", p.id);
+    const update: any = { [field]: !p[field] };
+    const { error } = await supabase.from("products").update(update).eq("id", p.id);
     if (error) return toast.error(error.message);
     toast.success("Actualizado");
     load();
